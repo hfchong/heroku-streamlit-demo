@@ -1,0 +1,4 @@
+streamlit==0.61.0
+numpy==1.18.5
+Pillow==7.1.2
+pycurl==7.43.0.5
