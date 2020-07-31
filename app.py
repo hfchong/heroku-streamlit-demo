@@ -126,7 +126,7 @@ def main():
         c.perform()
         c.close()
 
-        prob = json.loads(buffer.getvalue().decode('utf-8'))["churn_prob"]
+        prob = json.loads(buffer.getvalue().decode('utf-8'))["result"]
 
         st.subheader(f"Probability of churn = {prob:.6f}")
 
